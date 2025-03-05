@@ -21,10 +21,25 @@ export default function Home() {
           name="description"
           content="Portfolio & Instagram of Nizar Marifat"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta
+          name="keywords"
+          content="Nizar Marifat, Portfolio, Instagram, Web Developer, Designer, Next.js, UI/UX"
+        />
+
+        <meta property="og:title" content="NIZAR - Portofolio" />
+        <meta property="og:description" content="Just a from bandung" />
+        <meta
+          property="og:image"
+          content="https://nizarmarifat.com/preview.jpg"
+        />
+        <meta property="og:url" content="https://nizarmarifat.com" />
+        <meta property="og:type" content="website" />
       </Head>
+
       <div className="relative flex flex-col items-center justify-center min-h-screen text-white px-4">
-        {/* Background Video */}
         <video
           autoPlay
           loop
