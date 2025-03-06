@@ -8,7 +8,6 @@ const bungee = Bungee({
   weight: "400",
 });
 
-// Pisahkan huruf untuk animasi per huruf
 const nizar = "nizar".split("");
 const marifat = "marifat.com".split("");
 
@@ -16,27 +15,42 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NIZAR</title>
+        <title>NIZAR - Portfolio</title>
         <meta
           name="description"
-          content="Portfolio & Instagram of Nizar Marifat"
+          content="Website ini adalah portal dari Nizar Marifat, seorang Web Developer yang berfokus pada desain antarmuka yang menarik dan pengalaman pengguna yang optimal. Jelajahi karya desain, proyek pengembangan web, serta wawasan dan artikel seputar tren teknologi, UI/UX, dan inovasi digital."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
         <meta
           name="keywords"
-          content="Nizar Marifat, Portfolio, Instagram, Web Developer, Designer, Next.js, UI/UX"
+          content="Nizar Marifat, Portfolio, Instagram, Web Developer, UI/UX Designer, Next.js, Frontend Developer, Teknologi, Desain Web, Pengembangan Web, Inovasi Digital"
         />
+        <meta name="author" content="Nizar Marifat" />
 
-        <meta property="og:title" content="NIZAR - Portofolio" />
-        <meta property="og:description" content="Just a from bandung" />
+        <meta property="og:title" content="NIZAR MARIFAT - Portfolio & Instagram" />
+        <meta
+          property="og:description"
+          content="Website ini adalah portal dari Nizar Marifat, seorang Web Developer yang berfokus pada desain antarmuka yang menarik dan pengalaman pengguna yang optimal. Jelajahi karya desain, proyek pengembangan web, serta wawasan dan artikel seputar tren teknologi, UI/UX, dan inovasi digital."
+        />
         <meta
           property="og:image"
           content="https://nizarmarifat.com/preview.jpg"
         />
         <meta property="og:url" content="https://nizarmarifat.com" />
         <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="NIZAR - Portfolio & Instagram" />
+        <meta
+          name="twitter:description"
+          content="Website ini adalah portal dari Nizar Marifat, seorang Web Developer yang berfokus pada desain antarmuka yang menarik dan pengalaman pengguna yang optimal. Jelajahi karya desain, proyek pengembangan web, serta wawasan dan artikel seputar tren teknologi, UI/UX, dan inovasi digital."
+        />
+        <meta
+          name="twitter:image"
+          content="https://nizarmarifat.com/preview.jpg"
+        />
       </Head>
 
       <div className="relative flex flex-col items-center justify-center min-h-screen text-white px-4">
