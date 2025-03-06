@@ -36,7 +36,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://nizarmarifat.com/preview.jpg"
+          content="https://nizarmarifat.com/paladeadpool.png"
         />
         <meta property="og:url" content="https://nizarmarifat.com" />
         <meta property="og:type" content="website" />
@@ -49,7 +49,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://nizarmarifat.com/preview.jpg"
+          content="https://nizarmarifat.com/paladeadpool.png"
         />
       </Head>
 
