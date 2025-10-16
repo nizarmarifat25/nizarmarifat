@@ -121,7 +121,7 @@ export default function Home() {
         {/* Tombol Portofolio & Instagram */}
         <div className="mt-8 flex gap-4 z-10">
           <motion.a
-            href="https://portofolio-nizar.vercel.app/"
+            href="https://parallax-porto.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 text-lg font-semibold rounded-full border border-white text-white transition duration-300 hover:bg-white hover:text-black"
